@@ -24,15 +24,16 @@ header {
 }
 
 
-.main {
+#main {
   display: flexbox;
-  column-count: 16;
   justify-content: flex-start;
   align-content: flex-start;
-  height: 800px;
-  width: 800px;
-  row-gap: 0px;
+  height: 960px;
+  width: 960px;
+  min-width:0;
   column-gap: 0px;
+  border-radius: 5px;
+  border: 2px solid black;
 }
 
 body {
@@ -44,6 +45,9 @@ body {
 
 .pixel {
   background-color: red;
+  column-gap: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .change {
