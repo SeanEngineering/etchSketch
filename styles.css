@@ -1,0 +1,51 @@
+*{
+  font-family: avenir;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 30px;
+  font-size: x-large;
+  height: 20px;
+  
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-section {
+  margin-bottom: 10px;
+}
+
+
+.main {
+  display: flexbox;
+  column-count: 16;
+  justify-content: flex-start;
+  align-content: flex-start;
+  height: 800px;
+  width: 800px;
+  row-gap: 0px;
+  column-gap: 0px;
+}
+
+body {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pixel {
+  background-color: red;
+}
+
+.change {
+  background-color: black;
+}
